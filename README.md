@@ -21,3 +21,11 @@ To update the submodule to the latest version:
 ```bash
 git submodule update --remote .claude
 ```
+
+## Forgot to clone with `--recurse-submodules`?
+
+If you cloned the repo without the flag, initialize and populate the submodule manually:
+
+```bash
+git submodule update --init .claude
+```
