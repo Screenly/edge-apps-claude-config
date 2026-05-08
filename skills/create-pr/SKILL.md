@@ -13,3 +13,4 @@ description: The recommended way to create a pull request
 - Keep the pull request description short and concise
 - Must automatically assign the pull request to yourself
 - Must mark the pull request as "Draft" until it's ready for review
+- Pull requests should be created against the repo's default branch (e.g., `main` or `master`)
