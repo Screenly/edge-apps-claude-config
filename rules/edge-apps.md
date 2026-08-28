@@ -22,7 +22,6 @@ For comprehensive documentation on manifest files, including all available field
 
 When adding settings to your manifest file, follow these guidelines:
 
-- **Alphabetical sorting**: Settings must be sorted alphabetically by their key names. This improves maintainability and makes it easier to find settings.
 - **Help text format**: While `help_text` can be written as a simple string, it's recommended to use a structured format with `schema_version` and `properties` when appropriate. This format instructs the UI how to render the input field in the web interface without changing the underlying storage type.
 - **Input field types**: The structured `help_text` format supports the following input types:
   - `datetime`: For date and time selection
